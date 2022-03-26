@@ -15,6 +15,7 @@ help_info_button = types.KeyboardButton("🆘  -  Помощь")
 buttons.add(flip_coin_button, author_info_button, help_info_button)
 
 
+
 # Start handler
 @bot.message_handler(commands="start")
 def send_welcome_message(message):
